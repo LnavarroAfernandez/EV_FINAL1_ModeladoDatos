@@ -2,6 +2,13 @@
 
 Aplicación web interactiva adaptada al proyecto **Modelado y Presentación — Eagle Consulting S.A.C.**. El dashboard transforma los resultados del Notebook V5 en una herramienta comprensible para una audiencia comercial, financiera o directiva.
 
+## GRUPO 4 INTEGRANTES
+- Christian Alejandro Muro Chaname
+- Katia Lisbeth Francia Ugaz
+- Ivo Boris Arias Suni
+- Nicolas Junior Samaniego Cardenas
+- Luis Angel Navarro Fernandez
+
 ## Qué incluye
 
 ### 1. Resumen comercial
