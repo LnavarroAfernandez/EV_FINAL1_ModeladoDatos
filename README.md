@@ -101,7 +101,7 @@ eagle_dashboard_plotly_dash/
 Ejecute el siguiente comando en su terminal para descargar el proyecto desde GitHub:
 
 ```powershell
-git clone https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git
+1. git clone https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git
 ```
 
 ### 2. Abrir la carpeta del proyecto en Visual Studio Code
@@ -111,27 +111,27 @@ Ubíquese dentro de la carpeta `EV_FINAL1_ModeladoDatos`.
 ### 3. Crear un entorno virtual
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\activate
+2. python -m venv .venv
+3. .venv\Scripts\activate
 ```
 
 ### 4. Instalar dependencias
 
 ```powershell
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+4. python -m pip install --upgrade pip
+5. pip install -r requirements.txt
 ```
 
 ### 5. Ejecutar la aplicación
 
 ```powershell
-python app.py
+6. python app.py
 ```
 
 Abrir en el navegador:
 
 ```text
-http://127.0.0.1:8050
+7. http://127.0.0.1:8050
 ```
 
 También puede usar:
