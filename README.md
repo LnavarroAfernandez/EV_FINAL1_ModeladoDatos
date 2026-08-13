@@ -100,7 +100,9 @@ eagle_dashboard_plotly_dash/
 
 Ejecute el siguiente comando en su terminal para descargar el proyecto desde GitHub:
 
-```git clone [https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git](https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git)```
+```powershell
+git clone https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git
+```
 
 ### 2. Abrir la carpeta del proyecto en Visual Studio Code
 
