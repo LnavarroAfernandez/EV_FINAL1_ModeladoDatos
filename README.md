@@ -111,27 +111,28 @@ Ubíquese dentro de la carpeta `EV_FINAL1_ModeladoDatos`.
 ### 3. Crear un entorno virtual
 
 ```powershell
-2. python -m venv .venv
-3. .venv\Scripts\activate
+2. cd EV_FINAL1_ModeladoDatos
+3. python -m venv .venv
+4. .venv\Scripts\activate
 ```
 
 ### 4. Instalar dependencias
 
 ```powershell
-4. python -m pip install --upgrade pip
-5. pip install -r requirements.txt
+5. python -m pip install --upgrade pip
+6. pip install -r requirements.txt
 ```
 
 ### 5. Ejecutar la aplicación
 
 ```powershell
-6. python app.py
+7. python app.py
 ```
 
 Abrir en el navegador:
 
 ```text
-7. http://127.0.0.1:8050
+8. http://127.0.0.1:8050
 ```
 
 También puede usar:
@@ -149,7 +150,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 O:
 
 ```bash
