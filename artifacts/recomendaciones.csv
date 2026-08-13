@@ -1,0 +1,7 @@
+﻿Prioridad,Recomendación,Acción
+1,Depurar HP activas antiguas,"Revisar propuestas abiertas con más de 90 días, actualizar su estado y cerrar registros no vigentes."
+2,Revisar cotización y precio,"Analizar casos de costo de referencia y precio/presupuesto para ajustar rangos, descuentos o argumentos comerciales."
+3,Gestionar cartera por segmento,Retener cuentas de alto valor y desarrollar venta cruzada en clientes de menor actividad.
+4,Usar RF como ranking pre-OI,Priorizar HP de mayor potencial sin automatizar la decisión comercial.
+5,Separar PEN y USD,Mantener estimaciones y reportes monetarios por moneda.
+6,Fortalecer gobierno de datos,"Estandarizar fechas, motivos, estados y responsables; excluir identificadores y variables post-resultado."

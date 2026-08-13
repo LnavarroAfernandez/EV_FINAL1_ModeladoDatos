@@ -1,0 +1,5 @@
+﻿Modelo,Decisión,Uso
+K-Means,Segmentar la cartera,Diferenciar retención/cuentas clave de desarrollo y venta cruzada.
+Random Forest clasificación pre-OI,Priorizar oportunidades,Ordenar HP por potencial de facturación alta relativa dentro de su moneda.
+Random Forest regresión por moneda,Estimar facturación,Estimar el monto esperado en PEN o USD sin mezclar unidades.
+Modelo temporal mensual,Explorar pronóstico,Solo experimental; no automatizar presupuestos con el desempeño actual.

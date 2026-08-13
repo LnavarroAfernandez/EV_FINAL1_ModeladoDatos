@@ -1,0 +1,128 @@
+{
+  "project": "Eagle Consulting S.A.C. - Dashboard de Machine Learning",
+  "generated_from": "Notebook V5 y base 02_1_base_con_nuevos_datos.xlsx",
+  "random_state": 42,
+  "test_size": 0.2,
+  "valid_currencies": [
+    "S/.",
+    "US$"
+  ],
+  "classification_features": {
+    "numeric": [
+      "ImporteB",
+      "nParticipante",
+      "duracion",
+      "ANIO"
+    ],
+    "categorical": [
+      "idUnidNeg",
+      "DES_AO",
+      "Desc_Servicio",
+      "NomCliente",
+      "LugarEjec",
+      "Consultor",
+      "MON",
+      "Rubro"
+    ]
+  },
+  "regression_features": {
+    "numeric": [
+      "ImporteB",
+      "nParticipante",
+      "duracion",
+      "ANIO"
+    ],
+    "categorical": [
+      "idUnidNeg",
+      "DES_AO",
+      "Desc_Servicio",
+      "NomCliente",
+      "LugarEjec",
+      "Consultor",
+      "Rubro"
+    ]
+  },
+  "classification": {
+    "Modelo": "Random Forest pre-OI",
+    "Accuracy": 0.9124790619765494,
+    "Precision": 0.9291784702549575,
+    "Recall": 0.8801431127012522,
+    "F1": 0.9039963252181902,
+    "ROC_AUC": 0.9665826208217712,
+    "Registros": 11938,
+    "Muestra_prueba": 2388,
+    "Umbrales": {
+      "S/.": 3000.0,
+      "US$": 2754.0
+    },
+    "Matriz_confusion": [
+      [
+        1195,
+        75
+      ],
+      [
+        134,
+        984
+      ]
+    ]
+  },
+  "regression": [
+    {
+      "Moneda": "S/.",
+      "Modelo": "Random Forest pre-OI",
+      "Registros": 11288,
+      "Muestra_prueba": 2258,
+      "MAE_prueba": 3170.734102879774,
+      "RMSE_prueba": 30920.272607023697,
+      "R2_prueba": 0.7505299605597155
+    },
+    {
+      "Moneda": "US$",
+      "Modelo": "Random Forest pre-OI",
+      "Registros": 650,
+      "Muestra_prueba": 130,
+      "MAE_prueba": 3681.616594804453,
+      "RMSE_prueba": 16881.538558772252,
+      "R2_prueba": 0.567004706765849
+    }
+  ],
+  "segmentation": {
+    "k": 2,
+    "silhouette": 0.3844916465694158,
+    "clientes": 1320,
+    "pca_varianza_explicada": [
+      0.4498521884863564,
+      0.1759805700622306
+    ]
+  },
+  "business_summary": {
+    "total_registros": 17962,
+    "fecha_min": "2012-01-05",
+    "fecha_max": "2026-04-20",
+    "lineas_convertidas": 12210,
+    "conversion_lineas_pct": 67.97683999554616,
+    "hp_analiticas": 17670,
+    "hp_conversion_total": 12024,
+    "hp_conversion_total_pct": 68.04753820033956,
+    "hp_conversion_parcial": 11,
+    "hp_no_convertidas": 5635,
+    "mediana_dias_conversion": 1.0,
+    "promedio_dias_conversion": 9.106447638603695,
+    "conversion_15_dias_pct": 85.70020533880903,
+    "conversion_30_dias_pct": 92.47638603696099,
+    "p90_dias_conversion": 23.0,
+    "fechas_inconsistentes": 35,
+    "precio_costo_no_conversion_pct": 49.54483386436049,
+    "hp_activas_sin_oi": 1356,
+    "hp_activas_mas_90": 1238,
+    "hp_activas_mas_90_pct": 91.29793510324484,
+    "total_facturacion_pen": 122878666.59189999,
+    "total_facturacion_usd": 5903457.178
+  },
+  "limitations": [
+    "La probabilidad de clasificación corresponde a facturación alta relativa dentro de cada moneda; no es probabilidad de conversión ni garantía de venta.",
+    "La regresión estima el monto en la moneda seleccionada y no mezcla PEN con USD.",
+    "Los modelos utilizan patrones históricos y apoyan, pero no reemplazan, el criterio comercial.",
+    "El pronóstico temporal mensual no se utiliza de forma operativa porque su desempeño es todavía experimental."
+  ]
+}

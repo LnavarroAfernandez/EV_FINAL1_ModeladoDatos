@@ -1,0 +1,2 @@
+﻿Modelo,Accuracy,Precision,Recall,F1,ROC_AUC,Registros,Muestra_prueba,Umbrales,Matriz_confusion
+Random Forest pre-OI,0.9124790619765494,0.9291784702549575,0.8801431127012522,0.9039963252181902,0.9665826208217712,11938,2388,"{""S/."": 3000.0, ""US$"": 2754.0}","[[1195, 75], [134, 984]]"
