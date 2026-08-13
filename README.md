@@ -96,25 +96,31 @@ eagle_dashboard_plotly_dash/
 
 ## Cómo ejecutar en Windows
 
-### 1. Abrir la carpeta del proyecto en Visual Studio Code
+### 1. Clonar el repositorio y abrir en Visual Studio Code
 
-Ubíquese dentro de la carpeta `eagle_dashboard_plotly_dash`.
+Ejecute el siguiente comando en su terminal para descargar el proyecto desde GitHub:
 
-### 2. Crear un entorno virtual
+```git clone [https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git](https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git)```
+
+### 2. Abrir la carpeta del proyecto en Visual Studio Code
+
+Ubíquese dentro de la carpeta `EV_FINAL1_ModeladoDatos`.
+
+### 3. Crear un entorno virtual
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 3. Instalar dependencias
+### 4. Instalar dependencias
 
 ```powershell
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 4. Ejecutar la aplicación
+### 5. Ejecutar la aplicación
 
 ```powershell
 python app.py
@@ -135,12 +141,12 @@ run_dashboard.bat
 ## Cómo ejecutar en Linux o macOS
 
 ```bash
+git clone [https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git](https://github.com/LnavarroAfernandez/EV_FINAL1_ModeladoDatos.git)
+cd EV_FINAL1_ModeladoDatos
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-python app.py
-```
 
 O:
 
